@@ -1,11 +1,6 @@
-// This file was generated from a template. Edit it to match your keyboard.
-// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
-// instructions.
-
 #include "charleyboy.dtsi"
 
 &kscan0 {
-    /* 6 columns */
     col-gpios
         = <&xiao_d 5 GPIO_ACTIVE_HIGH>
         , <&xiao_d 6 GPIO_ACTIVE_HIGH>
@@ -14,4 +9,4 @@
         , <&xiao_d 9 GPIO_ACTIVE_HIGH>
         , <&xiao_d 10 GPIO_ACTIVE_HIGH>
     ;
-}
+};
