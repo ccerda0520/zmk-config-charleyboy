@@ -1,0 +1,5 @@
+config SHIELD_CHARLEYBOY_LEFT
+    def_bool $(shields_list_contains,charleyboy_left)
+
+config SHIELD_CHARLEYBOY_RIGHT
+    def_bool $(shields_list_contains,charleyboy_right)
