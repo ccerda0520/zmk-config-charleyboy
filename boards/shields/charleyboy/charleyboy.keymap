@@ -22,9 +22,9 @@
                 /* ===== RIGHT HALF ===== */
                 &kp N6  &kp N7  &kp N8  &kp N9 &kp N0 &kp MINUS
                 &kp Y   &kp U   &kp I   &kp O   &kp P   &kp PLUS
-                &kp H   &kp J   &kp K   &kp L   &kp ;   &kp '
-                &kp N   &kp M   &kp ,   &kp .   &kp /   &kp \
-                &kp 6   &kp 7   &kp 8   &kp 9   &kp 0  &1
+                &kp H   &kp J   &kp K   &kp L   &kp SEMI   &kp SQT
+                &kp N   &kp M   &kp COMMA   &kp DOT   &kp FSLH   &kp BSLH
+                &kp 6   &kp 7   &kp 8   &kp 9   &kp 0
             >;
         };
     };
