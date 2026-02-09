@@ -14,7 +14,19 @@
                 &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T            &kp Y   &kp U   &kp I       &kp O    &kp P      &kp PLUS
                 &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G            &kp H   &kp J   &kp K       &kp L    &kp SEMI   &kp SQT
                 &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B            &kp N   &kp M   &kp COMMA   &kp DOT  &kp FSLH   &kp BSLH
-                &none     &kp N1 &kp N2 &kp N3 &kp N4 &studio_unlock   &kp N6  &kp N7  &kp N8      &kp N9   &kp N0     &none
+                &none     &kp GRV &kp N2 &kp LGUI &mo 1 &kp LALT       &kp N6  &kp N7  &kp BSPC      &kp N9   &kp ENTER     &none
+            >;
+        };
+
+        layer1 {
+            display-name = "F & Arrows Layer";
+
+            bindings = <
+                &kp ESC   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5          &kp F6   &kp F7   &kp F8      &kp F9   &kp F10    &kp F11
+                &kp TAB   &kp NO   &kp NO   &kp NO   &kp NO   &kp NO          &kp NO   &kp NO   &kp LEFT     &kp DOWN &kp UP     &kp RIGHT
+                &kp LSHFT &kp NO   &kp NO   &kp NO   &kp NO   &kp NO          &kp NO   &kp NO   &kp NO       &kp NO   &kp NO     &kp NO
+                &kp LCTRL &kp NO   &kp NO   &kp NO   &kp NO   &kp NO          &kp NO   &kp NO   &kp NO       &kp NO   &kp NO     &kp NO
+                &none     &kp NO   &kp NO   &kp NO   &kp NO   &kp NO          &kp NO   &kp NO   &kp NO       &kp NO   &kp NO     &kp NO
             >;
         };
     };
