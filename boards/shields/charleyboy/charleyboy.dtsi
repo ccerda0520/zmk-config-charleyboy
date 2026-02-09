@@ -2,10 +2,12 @@
 
 /* #include "charleyboy-layouts.dtsi" */
 
+/*
 &default_layout {
     kscan = <&kscan0>;
     transform = <&default_transform>;
 };
+*/
 
 / {
     chosen {
