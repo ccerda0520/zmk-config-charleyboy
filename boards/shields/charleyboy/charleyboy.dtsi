@@ -14,7 +14,7 @@
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
         /* zmk,physical-layout = &default_layout; */
-        zmk,battery = &xiao_battery_voltage_divider;
+        /* zmk,battery = &xiao_battery_voltage_divider; */
     };
 
     kscan0: kscan {
@@ -46,6 +46,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
         >;
     };
 
+    /*
     xiao_battery_voltage_divider: vbatt {
     	status = "okay";
         compatible = "zmk,battery-voltage-divider";
@@ -53,4 +54,5 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
         output-ohms = <470000>;
         full-ohms = <1470000>;
     };
+    */
 };
