@@ -21,16 +21,24 @@
             >;
         };
 
-        layer1 {
+        fn_layer {
             display-name = "F & Arrows Layer";
 
             bindings = <
                 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                                 &kp F7   &kp F8   &kp F9   &kp F10   &kp F11 &kp F12
-                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none        &none    &none    &kp UP   &none     &none   &none
+                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none        &studio_unlock    &none    &kp UP   &none     &none   &none
                 &kp LSHFT  &none  &none  &none  &none  &none                                  &none    &kp LEFT &kp DOWN &kp RIGHT &none   &none
                 &kp LCTRL  &none  &none  &none  &none  &none                                  &kp C_VOL_DN   &kp C_VOL_UP    &none    &none     &none   &none
                        &kp LCMD  &none  &kp LALT  &none  &none                                  &none    &none    &none    &none     &none
             >;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
         };
     };
 };
