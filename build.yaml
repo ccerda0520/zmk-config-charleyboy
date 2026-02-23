@@ -20,7 +20,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: charleyboy_left rgbled_adapter
+    shield: charleyboy_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
